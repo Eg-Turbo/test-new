@@ -1,0 +1,28 @@
+# URLs that do not require a session or valid token
+
+# api/v1/auth/registration/	###		[POST]
+# api/v1/auth/registration/verify-email/ 	[POST]
+# api/v1/auth/registration/resend-email/	[POST]
+# api/v1/auth/login/	##			[POST]
+# api/v1/auth/password/reset/		###	[POST]
+# api/v1/auth/password/reset/confirm/	###	[POST]
+# api/v1/auth/token/refresh/			[POST]
+# api/v1/auth/token/verify/			[POST]
+# api/v1/auth/google/				[POST]
+
+# api/v1/chat/chatboxes/
+    [Post,Get]
+# api/v1/chat/chatboxes/<chatbox_id>/
+    
+# api/v1/chat/messages/<chatbox_id>/
+
+
+
+# URLs that require a user to be logged in with a valid session / token.
+	
+# api/v1/auth/logout/				[POST]
+# api/v1/auth/user/				[GET, PUT]
+# api/v1/auth/password/change/			[POST]	
+
+
+https://www.chatg6.ai/
